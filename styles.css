@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'Monocraft';
+  src: url('Monocraft.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Monocraft', Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+#weather {
+  font-size: 48px; /* Ajustar según el tamaño deseado */
+  margin: 20px 0;
+  font-family: 'Monocraft', Arial, sans-serif; /* Fallback para navegadores que no soporten @font-face */
+}
+
+/* Estilo para la selección de texto */
+::selection {
+  background-color: #007bff; /* Color de fondo de la selección */
+  color: #fff; /* Color del texto seleccionado */
+}
+
+/* Estilo del cursor del mouse */
+html {
+  cursor: pointer; /* Cambiar el cursor a una mano */
+}
