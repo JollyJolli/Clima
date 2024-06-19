@@ -23,16 +23,5 @@ body {
 #weather {
   font-size: 48px; /* Ajustar según el tamaño deseado */
   margin: 20px 0;
-  font-family: 'Monocraft', Arial, sans-serif; /* Fallback para navegadores que no soporten @font-face */
-}
-
-/* Estilo para la selección de texto */
-::selection {
-  background-color: #007bff; /* Color de fondo de la selección */
-  color: #fff; /* Color del texto seleccionado */
-}
-
-/* Estilo del cursor del mouse */
-html {
-  cursor: pointer; /* Cambiar el cursor a una mano */
+  cursor: pointer; /* Cambiar el cursor a un puntero al pasar sobre el texto */
 }
